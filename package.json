@@ -8,8 +8,8 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Flexavior",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.21.2"
   }
