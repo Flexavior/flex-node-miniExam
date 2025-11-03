@@ -1,0 +1,685 @@
+[
+  {
+    "ID": 1,
+    "Question": "True or False: Amazon S3 is designed for 99.999999999% (11 9s) of durability.",
+    "ReferenceImage": null,
+    "Options": [true, false],
+    "Answer": true,
+    "Explanation": "Amazon S3 offers 11 9s of durability, ensuring data is securely stored with minimal risk of loss."
+  },
+  {
+    "ID": 2,
+    "Question": "True or False: AWS Lambda requires provisioning of servers to run code.",
+    "ReferenceImage": null,
+    "Options": [true, false],
+    "Answer": false,
+    "Explanation": "AWS Lambda is serverless and manages infrastructure automatically, so no server provisioning is required."
+  },
+  {
+    "ID": 3,
+    "Question": "True or False: Amazon RDS supports automatic backups by default.",
+    "ReferenceImage": null,
+    "Options": [true, false],
+    "Answer": true,
+    "Explanation": "Amazon RDS supports automated backups by default, retaining them for a specified retention period."
+  },
+  {
+    "ID": 4,
+    "Question": "True or False: AWS IAM users are global entities and not region-specific.",
+    "ReferenceImage": null,
+    "Options": [true, false],
+    "Answer": true,
+    "Explanation": "IAM users are global and can be used to access AWS resources across all regions."
+  },
+  {
+    "ID": 5,
+    "Question": "True or False: Amazon CloudFront only caches static content.",
+    "ReferenceImage": null,
+    "Options": [true, false],
+    "Answer": false,
+    "Explanation": "Amazon CloudFront can cache both static and dynamic content to improve performance."
+  },
+  {
+    "ID": 51,
+    "Question": "Which of the following is a benefit of using Amazon EC2?",
+    "ReferenceImage": null,
+    "Options": [
+      "Scalability and elasticity",
+      "Predictable pricing",
+      "Manual hardware provisioning",
+      "Limited instance types"
+    ],
+    "Answer": "Scalability and elasticity",
+    "Explanation": "Amazon EC2 provides scalability and elasticity, allowing users to scale resources up or down as needed."
+  },
+  {
+    "ID": 52,
+    "Question": "Which AWS service is used for object storage?",
+    "ReferenceImage": null,
+    "Options": ["Amazon S3", "Amazon EBS", "Amazon RDS", "Amazon EC2"],
+    "Answer": "Amazon S3",
+    "Explanation": "Amazon S3 is specifically designed for object storage, offering high durability and availability."
+  },
+  {
+    "ID": 53,
+    "Question": "What is the maximum size of a single object in Amazon S3?",
+    "ReferenceImage": null,
+    "Options": ["5 GB", "50 GB", "5 TB", "50 TB"],
+    "Answer": "5 TB",
+    "Explanation": "Amazon S3 allows objects up to 5 TB in size, making it suitable for storing large datasets."
+  },
+  {
+    "ID": 54,
+    "Question": "Which AWS service helps distribute traffic across multiple targets?",
+    "ReferenceImage": null,
+    "Options": [
+      "Amazon RDS",
+      "Elastic Load Balancing",
+      "Amazon Route 53",
+      "AWS CloudFormation"
+    ],
+    "Answer": "Elastic Load Balancing",
+    "Explanation": "Elastic Load Balancing automatically distributes incoming traffic across multiple targets."
+  },
+  {
+    "ID": 101,
+    "Question": "Amazon S3 is designed for ____% durability.",
+    "ReferenceImage": null,
+    "Options": ["11 9s", "5 9s", "7 9s", "10 9s"],
+    "Answer": "11 9s",
+    "Explanation": "Amazon S3 is designed for 99.999999999% durability, also referred to as 11 9s."
+  },
+  {
+    "ID": 102,
+    "Question": "Amazon EC2 stands for Elastic Compute ____.",
+    "ReferenceImage": null,
+    "Options": ["Capacity", "Cloud", "Configuration", "Computing"],
+    "Answer": "Cloud",
+    "Explanation": "Amazon EC2 stands for Elastic Compute Cloud, reflecting its cloud-based nature."
+  },
+  {
+    "ID": 103,
+    "Question": "AWS provides a global Content Delivery Network through ______.",
+    "ReferenceImage": null,
+    "Options": ["Amazon CloudFront", "Amazon S3", "Elastic Load Balancing", "Amazon RDS"],
+    "Answer": "Amazon CloudFront",
+    "Explanation": "Amazon CloudFront is AWS's Content Delivery Network, ensuring low-latency delivery globally."
+  },
+  {
+    "ID": 104,
+    "Question": "The maximum size of a message in Amazon SQS is ____ KB.",
+    "ReferenceImage": null,
+    "Options": ["256", "512", "128", "1024"],
+    "Answer": "256",
+    "Explanation": "Amazon SQS allows messages up to 256 KB in size by default, making it suitable for lightweight communication."
+  },
+  {
+    "ID": 105,
+    "Question": "AWS _______ is used for serverless computing.",
+    "ReferenceImage": null,
+    "Options": ["Lambda", "EC2", "ECS", "Fargate"],
+    "Answer": "Lambda",
+    "Explanation": "AWS Lambda is the serverless computing service that lets you run code without managing servers."
+  },
+  {
+    "ID": 106,
+    "Question": "Amazon RDS supports ________ as a relational database engine.",
+    "ReferenceImage": null,
+    "Options": ["MySQL", "Redis", "MongoDB", "Cassandra"],
+    "Answer": "MySQL",
+    "Explanation": "Amazon RDS supports several relational database engines, including MySQL, PostgreSQL, and Oracle."
+  },
+  {
+    "ID": 107,
+    "Question": "AWS _______ is used for monitoring and logging infrastructure and applications.",
+    "ReferenceImage": null,
+    "Options": ["CloudWatch", "CloudTrail", "Config", "X-Ray"],
+    "Answer": "CloudWatch",
+    "Explanation": "Amazon CloudWatch monitors AWS infrastructure and applications, providing metrics and logs for operational visibility."
+  },
+  {
+    "ID": 108,
+    "Question": "Amazon _______ is used to manage DNS for domain names.",
+    "ReferenceImage": null,
+    "Options": ["Route 53", "CloudFront", "VPC", "S3"],
+    "Answer": "Route 53",
+    "Explanation": "Amazon Route 53 is a scalable Domain Name System (DNS) web service."
+  },
+  {
+    "ID": 109,
+    "Question": "AWS _______ enables infrastructure as code.",
+    "ReferenceImage": null,
+    "Options": ["CloudFormation", "Config", "Lambda", "OpsWorks"],
+    "Answer": "CloudFormation",
+    "Explanation": "AWS CloudFormation provides a way to model and provision AWS resources using code templates."
+  },
+  {
+    "ID": 110,
+    "Question": "Amazon EBS is a _______ storage service.",
+    "ReferenceImage": null,
+    "Options": ["Block", "Object", "File", "Relational"],
+    "Answer": "Block",
+    "Explanation": "Amazon Elastic Block Store (EBS) is designed for block-level storage, often used with EC2 instances."
+  },
+  {
+    "ID": 111,
+    "Question": "AWS _______ provides a secure and resizable compute capacity in the cloud.",
+    "ReferenceImage": null,
+    "Options": ["EC2", "Lambda", "ECS", "EKS"],
+    "Answer": "EC2",
+    "Explanation": "Amazon Elastic Compute Cloud (EC2) provides scalable compute capacity, allowing users to run virtual machines."
+  },
+  {
+    "ID": 112,
+    "Question": "The primary storage service in AWS is _______.",
+    "ReferenceImage": null,
+    "Options": ["S3", "EBS", "EFS", "RDS"],
+    "Answer": "S3",
+    "Explanation": "Amazon S3 is AWS's primary storage service, ideal for storing and retrieving any amount of data."
+  },
+  {
+    "ID": 113,
+    "Question": "AWS _______ helps organizations detect and protect sensitive data stored in S3.",
+    "ReferenceImage": null,
+    "Options": ["Macie", "GuardDuty", "Config", "Inspector"],
+    "Answer": "Macie",
+    "Explanation": "Amazon Macie uses machine learning to discover and classify sensitive data in S3."
+  },
+  {
+    "ID": 114,
+    "Question": "The AWS _______ allows you to create isolated networks for your resources.",
+    "ReferenceImage": null,
+    "Options": ["VPC", "CloudFront", "Route 53", "Direct Connect"],
+    "Answer": "VPC",
+    "Explanation": "Amazon Virtual Private Cloud (VPC) enables users to create isolated networks for AWS resources."
+  },
+  {
+    "ID": 115,
+    "Question": "AWS _______ provides a data warehouse solution.",
+    "ReferenceImage": null,
+    "Options": ["Redshift", "RDS", "DynamoDB", "S3"],
+    "Answer": "Redshift",
+    "Explanation": "Amazon Redshift is a fully managed data warehouse service for analyzing large datasets."
+  },
+  {
+    "ID": 116,
+    "Question": "AWS Identity and Access Management (IAM) supports _______ for fine-grained permissions.",
+    "ReferenceImage": null,
+    "Options": ["Policies", "Roles", "Users", "Groups"],
+    "Answer": "Policies",
+    "Explanation": "IAM policies define permissions for users, groups, or roles, enabling fine-grained access control."
+  },
+  {
+    "ID": 117,
+    "Question": "Amazon _______ is a managed NoSQL database.",
+    "ReferenceImage": null,
+    "Options": ["DynamoDB", "RDS", "Redshift", "Aurora"],
+    "Answer": "DynamoDB",
+    "Explanation": "Amazon DynamoDB is a NoSQL database service designed for high availability and scalability."
+  },
+  {
+    "ID": 118,
+    "Question": "AWS Elastic Beanstalk simplifies application deployment by managing _______.",
+    "ReferenceImage": null,
+    "Options": ["Infrastructure", "DNS", "IAM", "Billing"],
+    "Answer": "Infrastructure",
+    "Explanation": "AWS Elastic Beanstalk abstracts infrastructure management, allowing developers to focus on application development."
+  },
+  {
+    "ID": 119,
+    "Question": "Amazon _______ is a global key-value store.",
+    "ReferenceImage": null,
+    "Options": ["DynamoDB", "S3", "EFS", "RDS"],
+    "Answer": "DynamoDB",
+    "Explanation": "Amazon DynamoDB is a global key-value store, optimized for high throughput and low latency."
+  },
+  {
+    "ID": 120,
+    "Question": "AWS _______ provides fully managed containers.",
+    "ReferenceImage": null,
+    "Options": ["Fargate", "Lambda", "EKS", "EBS"],
+    "Answer": "Fargate",
+    "Explanation": "AWS Fargate allows you to run containers without managing underlying infrastructure."
+  },
+  {
+    "ID": 121,
+    "Question": "Which AWS service allows you to monitor and log API calls?",
+    "ReferenceImage": null,
+    "Options": ["CloudTrail", "CloudWatch", "Config", "GuardDuty"],
+    "Answer": "CloudTrail",
+    "Explanation": "AWS CloudTrail records all API calls made within your AWS account for auditing and compliance purposes."
+  },
+  {
+    "ID": 122,
+    "Question": "Which of the following AWS services helps in setting up a hybrid cloud environment by connecting on-premises data centers to AWS?",
+    "ReferenceImage": null,
+    "Options": ["Direct Connect", "VPN", "VPC", "Route 53"],
+    "Answer": "Direct Connect",
+    "Explanation": "AWS Direct Connect allows for a dedicated network connection from on-premises data centers to AWS, ensuring a reliable hybrid cloud setup."
+  },
+  {
+    "ID": 123,
+    "Question": "Which service is used to set up an isolated virtual network within the AWS Cloud?",
+    "ReferenceImage": null,
+    "Options": ["VPC", "Route 53", "S3", "IAM"],
+    "Answer": "VPC",
+    "Explanation": "Amazon Virtual Private Cloud (VPC) enables users to create an isolated network within the AWS Cloud to host resources."
+  },
+  {
+    "ID": 124,
+    "Question": "Which service allows users to build serverless applications and APIs?",
+    "ReferenceImage": null,
+    "Options": ["API Gateway", "Lambda", "ECS", "Fargate"],
+    "Answer": "API Gateway",
+    "Explanation": "Amazon API Gateway helps developers create and publish RESTful APIs that are scalable, secure, and serverless."
+  },
+  {
+    "ID": 125,
+    "Question": "AWS provides the ability to deploy machine learning models in production with which service?",
+    "ReferenceImage": null,
+    "Options": ["SageMaker", "Lambda", "EC2", "DynamoDB"],
+    "Answer": "SageMaker",
+    "Explanation": "Amazon SageMaker is a fully managed service for building, training, and deploying machine learning models at scale."
+  },
+  {
+    "ID": 126,
+    "Question": "Which AWS service provides a managed NoSQL database solution?",
+    "ReferenceImage": null,
+    "Options": ["DynamoDB", "RDS", "Redshift", "S3"],
+    "Answer": "DynamoDB",
+    "Explanation": "Amazon DynamoDB is a fully managed NoSQL database service known for high availability, scalability, and low latency."
+  },
+  {
+    "ID": 127,
+    "Question": "Which of the following services provides a fully managed search engine service?",
+    "ReferenceImage": null,
+    "Options": ["Elasticsearch", "S3", "CloudSearch", "DynamoDB"],
+    "Answer": "CloudSearch",
+    "Explanation": "Amazon CloudSearch is a fully managed service for setting up, managing, and scaling search solutions for web and enterprise applications."
+  },
+  {
+    "ID": 128,
+    "Question": "What is the maximum object size for Amazon S3?",
+    "ReferenceImage": null,
+    "Options": ["5 TB", "10 GB", "1 GB", "50 GB"],
+    "Answer": "5 TB",
+    "Explanation": "The maximum size for a single object in Amazon S3 is 5 terabytes."
+  },
+  {
+    "ID": 129,
+    "Question": "Which AWS service provides a fully managed relational database engine optimized for high-performance applications?",
+    "ReferenceImage": null,
+    "Options": ["Aurora", "RDS", "DynamoDB", "Redshift"],
+    "Answer": "Aurora",
+    "Explanation": "Amazon Aurora is a high-performance relational database service compatible with MySQL and PostgreSQL, designed for enterprise-scale applications."
+  },
+{
+    "ID": 130,
+    "Question": "Which of the following AWS services helps in performing real-time streaming data analytics?",
+    "ReferenceImage": null,
+    "Options": ["Kinesis", "Redshift", "DynamoDB", "S3"],
+    "Answer": "Kinesis",
+    "Explanation": "Amazon Kinesis is a platform for real-time data streaming and analytics, allowing you to process and analyze streaming data."
+  },
+  {
+    "ID": 131,
+    "Question": "AWS _______ enables the migration of on-premises workloads to the cloud.",
+    "ReferenceImage": null,
+    "Options": ["Migration Hub", "Elastic Beanstalk", "CloudTrail", "S3"],
+    "Answer": "Migration Hub",
+    "Explanation": "AWS Migration Hub helps track the progress of your migrations across AWS and partner tools."
+  },
+  {
+    "ID": 132,
+    "Question": "Which AWS service is used for managing and securing access to web applications?",
+    "ReferenceImage": null,
+    "Options": ["WAF", "VPC", "IAM", "CloudFront"],
+    "Answer": "WAF",
+    "Explanation": "AWS WAF (Web Application Firewall) helps protect web applications from common web exploits and attacks."
+  },
+  {
+    "ID": 133,
+    "Question": "Which of the following AWS services provides a scalable object storage solution for backup and archival?",
+    "ReferenceImage": null,
+    "Options": ["S3 Glacier", "EFS", "DynamoDB", "RDS"],
+    "Answer": "S3 Glacier",
+    "Explanation": "Amazon S3 Glacier is a low-cost storage class designed for data archiving and long-term backup."
+  },
+  {
+    "ID": 134,
+    "Question": "Which of the following AWS services is used for managing Docker containers?",
+    "ReferenceImage": null,
+    "Options": ["ECS", "S3", "IAM", "CloudFormation"],
+    "Answer": "ECS",
+    "Explanation": "Amazon ECS (Elastic Container Service) is a fully managed container orchestration service for running Docker containers."
+  },
+  {
+    "ID": 135,
+    "Question": "Which AWS service is used to set up, manage, and scale a relational database in the cloud?",
+    "ReferenceImage": null,
+    "Options": ["RDS", "DynamoDB", "Redshift", "Aurora"],
+    "Answer": "RDS",
+    "Explanation": "Amazon RDS (Relational Database Service) provides scalable relational database management in the cloud."
+  },
+  {
+    "ID": 136,
+    "Question": "AWS CloudTrail records which of the following?",
+    "ReferenceImage": null,
+    "Options": ["API Calls", "Instance Metrics", "Network Traffic", "Cost Analysis"],
+    "Answer": "API Calls",
+    "Explanation": "AWS CloudTrail logs API calls made on your account, providing a history of all API activity for auditing purposes."
+  },
+  {
+    "ID": 137,
+    "Question": "Which of the following is a service provided by AWS for content delivery?",
+    "ReferenceImage": null,
+    "Options": ["CloudFront", "S3", "VPC", "Route 53"],
+    "Answer": "CloudFront",
+    "Explanation": "Amazon CloudFront is a content delivery network (CDN) that caches copies of your data at edge locations for fast delivery."
+  },
+  {
+    "ID": 138,
+    "Question": "Which service is designed for scalable block storage in AWS?",
+    "ReferenceImage": null,
+    "Options": ["EBS", "S3", "EFS", "RDS"],
+    "Answer": "EBS",
+    "Explanation": "Amazon EBS (Elastic Block Store) provides persistent block storage volumes for use with EC2 instances."
+  },
+  {
+    "ID": 139,
+    "Question": "Which of the following services can be used to deploy machine learning models in AWS?",
+    "ReferenceImage": null,
+    "Options": ["SageMaker", "Lambda", "EC2", "RDS"],
+    "Answer": "SageMaker",
+    "Explanation": "Amazon SageMaker is a fully managed service that enables you to build, train, and deploy machine learning models at scale."
+  },
+  {
+    "ID": 140,
+    "Question": "Which AWS service helps in automatic scaling of EC2 instances based on demand?",
+    "ReferenceImage": null,
+    "Options": ["Auto Scaling", "CloudWatch", "ECS", "Lambda"],
+    "Answer": "Auto Scaling",
+    "Explanation": "AWS Auto Scaling automatically adjusts the number of EC2 instances in response to changes in demand."
+  },
+  {
+    "ID": 141,
+    "Question": "Which AWS service is used for distributed caching?",
+    "ReferenceImage": null,
+    "Options": ["ElastiCache", "S3", "RDS", "Redshift"],
+    "Answer": "ElastiCache",
+    "Explanation": "Amazon ElastiCache provides an in-memory cache service, helping improve application performance by reducing database load."
+  },
+  {
+    "ID": 142,
+    "Question": "AWS Direct Connect provides a dedicated network connection between which two locations?",
+    "ReferenceImage": null,
+    "Options": ["On-premises data centers and AWS", "AWS regions", "CloudFront and S3", "ECS and RDS"],
+    "Answer": "On-premises data centers and AWS",
+    "Explanation": "AWS Direct Connect establishes a dedicated network connection between an on-premises data center and AWS."
+  },
+  {
+    "ID": 143,
+    "Question": "What is the purpose of AWS Security Hub?",
+    "ReferenceImage": null,
+    "Options": ["Centralized security management", "Automated security patching", "Real-time network monitoring", "Access management"],
+    "Answer": "Centralized security management",
+    "Explanation": "AWS Security Hub provides centralized security and compliance monitoring across AWS accounts."
+  },
+  {
+    "ID": 144,
+    "Question": "Which AWS service allows users to manage API lifecycle?",
+    "ReferenceImage": null,
+    "Options": ["API Gateway", "CloudFront", "S3", "Lambda"],
+    "Answer": "API Gateway",
+    "Explanation": "Amazon API Gateway enables users to create, publish, and manage secure APIs for applications."
+  },
+  {
+    "ID": 145,
+    "Question": "Which AWS service provides a fully managed service for handling DNS queries?",
+    "ReferenceImage": null,
+    "Options": ["Route 53", "VPC", "CloudFormation", "CloudWatch"],
+    "Answer": "Route 53",
+    "Explanation": "Amazon Route 53 provides a scalable DNS service for domain name resolution, routing users to AWS resources."
+  },
+  {
+    "ID": 146,
+    "Question": "Which AWS service allows you to monitor the performance of your cloud resources and applications?",
+    "ReferenceImage": null,
+    "Options": ["CloudWatch", "S3", "IAM", "EC2"],
+    "Answer": "CloudWatch",
+    "Explanation": "Amazon CloudWatch monitors cloud resources and applications, providing metrics, logs, and alarms."
+  },
+  {
+    "ID": 147,
+    "Question": "Which AWS service provides a managed Kubernetes platform for container orchestration?",
+    "ReferenceImage": null,
+    "Options": ["EKS", "ECS", "Fargate", "Lambda"],
+    "Answer": "EKS",
+    "Explanation": "Amazon EKS (Elastic Kubernetes Service) provides a managed service for running Kubernetes clusters on AWS."
+  },
+  {
+    "ID": 148,
+    "Question": "What is AWS CloudFormation used for?",
+    "ReferenceImage": null,
+    "Options": ["Automated infrastructure provisioning", "Running serverless applications", "Real-time data processing", "Data storage"],
+    "Answer": "Automated infrastructure provisioning",
+    "Explanation": "AWS CloudFormation automates the deployment of AWS infrastructure using templates to define and provision resources."
+  },
+  {
+    "ID": 149,
+    "Question": "Which AWS service can help automate security assessments of your applications?",
+    "ReferenceImage": null,
+    "Options": ["Inspector", "GuardDuty", "Macie", "WAF"],
+    "Answer": "Inspector",
+    "Explanation": "AWS Inspector helps automate security assessments by identifying vulnerabilities and deviations from best practices."
+  },
+  {
+    "ID": 150,
+    "Question": "Which AWS service is used to deploy a web application without managing infrastructure?",
+    "ReferenceImage": null,
+    "Options": ["Elastic Beanstalk", "EC2", "Lambda", "EKS"],
+    "Answer": "Elastic Beanstalk",
+    "Explanation": "AWS Elastic Beanstalk automates the deployment and scaling of web applications without requiring infrastructure management."
+  },
+{
+    "ID": 151,
+    "Question": "Which AWS service is ideal for processing large-scale data in parallel using the MapReduce framework?",
+    "ReferenceImage": null,
+    "Options": ["EMR", "Redshift", "DynamoDB", "Athena"],
+    "Answer": "EMR",
+    "Explanation": "Amazon EMR (Elastic MapReduce) simplifies processing large-scale datasets by running Apache Spark, Hadoop, and other big data frameworks."
+  },
+  {
+    "ID": 152,
+    "Question": "Which AWS feature enables you to create and manage multiple accounts within an organization?",
+    "ReferenceImage": null,
+    "Options": ["AWS Organizations", "IAM", "Control Tower", "CloudFormation"],
+    "Answer": "AWS Organizations",
+    "Explanation": "AWS Organizations allows centralized management of multiple AWS accounts and policies."
+  },
+  {
+    "ID": 153,
+    "Question": "Which of the following services automatically distributes incoming application traffic across multiple targets?",
+    "ReferenceImage": null,
+    "Options": ["Elastic Load Balancing", "Auto Scaling", "Route 53", "CloudFront"],
+    "Answer": "Elastic Load Balancing",
+    "Explanation": "Elastic Load Balancing (ELB) distributes incoming traffic across targets, enhancing availability and fault tolerance."
+  },
+  {
+    "ID": 154,
+    "Question": "In a multi-AZ RDS deployment, what happens during a database instance failure?",
+    "ReferenceImage": null,
+    "Options": [
+      "A standby instance takes over automatically.",
+      "Data is lost until manually restored.",
+      "The database stops responding until restarted.",
+      "A new instance is created automatically."
+    ],
+    "Answer": "A standby instance takes over automatically.",
+    "Explanation": "In a multi-AZ RDS setup, a standby instance in another Availability Zone automatically takes over during failures."
+  },
+  {
+    "ID": 155,
+    "Question": "Which AWS storage option is best suited for archival data that is infrequently accessed?",
+    "ReferenceImage": null,
+    "Options": ["S3 Glacier", "EBS", "EFS", "Redshift"],
+    "Answer": "S3 Glacier",
+    "Explanation": "Amazon S3 Glacier is designed for low-cost storage of archival and infrequently accessed data."
+  },
+  {
+    "ID": 156,
+    "Question": "Which AWS service lets you add machine learning capabilities to your applications without prior expertise?",
+    "ReferenceImage": null,
+    "Options": ["AI Services", "SageMaker", "Rekognition", "Comprehend"],
+    "Answer": "AI Services",
+    "Explanation": "AWS AI Services include tools like Rekognition and Comprehend, offering pre-built models to add AI capabilities to applications."
+  },
+  {
+    "ID": 157,
+    "Question": "Which service provides automated workflows to help securely deploy applications?",
+    "ReferenceImage": null,
+    "Options": ["CodePipeline", "CodeDeploy", "Elastic Beanstalk", "OpsWorks"],
+    "Answer": "CodePipeline",
+    "Explanation": "AWS CodePipeline automates the build, test, and deployment process to ensure efficient CI/CD workflows."
+  },
+  {
+    "ID": 158,
+    "Question": "Which AWS service is used for automating the deployment of Amazon EC2 instances using infrastructure as code?",
+    "ReferenceImage": null,
+    "Options": ["CloudFormation", "OpsWorks", "Elastic Beanstalk", "Auto Scaling"],
+    "Answer": "CloudFormation",
+    "Explanation": "AWS CloudFormation lets you model and provision AWS resources using templates, automating infrastructure deployment."
+  },
+  {
+    "ID": 159,
+    "Question": "Which storage class is most cost-effective for data that requires millisecond access but is accessed less frequently?",
+    "ReferenceImage": null,
+    "Options": ["S3 Standard-IA", "S3 Glacier", "EFS", "S3 One Zone-IA"],
+    "Answer": "S3 Standard-IA",
+    "Explanation": "Amazon S3 Standard-IA (Infrequent Access) offers a lower cost for data that requires fast access but is used less frequently."
+  },
+  {
+    "ID": 160,
+    "Question": "Which of the following AWS services supports event-driven architecture for serverless applications?",
+    "ReferenceImage": null,
+    "Options": ["Lambda", "EC2", "RDS", "Route 53"],
+    "Answer": "Lambda",
+    "Explanation": "AWS Lambda supports event-driven architecture by executing code in response to triggers such as changes in data or user actions."
+  },
+  {
+    "ID": 161,
+    "Question": "Which AWS tool helps in estimating costs based on your planned usage?",
+    "ReferenceImage": null,
+    "Options": ["AWS Pricing Calculator", "Cost Explorer", "Budgets", "CloudTrail"],
+    "Answer": "AWS Pricing Calculator",
+    "Explanation": "The AWS Pricing Calculator helps estimate costs for planned workloads by considering service configurations."
+  },
+  {
+    "ID": 162,
+    "Question": "What is the primary purpose of Amazon Cognito?",
+    "ReferenceImage": null,
+    "Options": ["User authentication and identity management", "API management", "Database monitoring", "Object storage"],
+    "Answer": "User authentication and identity management",
+    "Explanation": "Amazon Cognito provides authentication, authorization, and user management for your web and mobile apps."
+  },
+  {
+    "ID": 163,
+    "Question": "What is the primary advantage of AWS Snowball?",
+    "ReferenceImage": null,
+    "Options": ["Secure data transfer for large datasets", "Real-time data streaming", "Continuous machine learning training", "Content delivery"],
+    "Answer": "Secure data transfer for large datasets",
+    "Explanation": "AWS Snowball is a physical device used to securely transfer large datasets to and from AWS."
+  },
+  {
+    "ID": 164,
+    "Question": "Which AWS service is suitable for real-time application monitoring?",
+    "ReferenceImage": null,
+    "Options": ["CloudWatch", "CloudTrail", "Config", "SNS"],
+    "Answer": "CloudWatch",
+    "Explanation": "Amazon CloudWatch monitors real-time metrics for AWS services and custom applications."
+  },
+  {
+    "ID": 165,
+    "Question": "Which service is designed to manage multi-container Docker applications?",
+    "ReferenceImage": null,
+    "Options": ["ECS", "Fargate", "Elastic Beanstalk", "EKS"],
+    "Answer": "ECS",
+    "Explanation": "Amazon ECS (Elastic Container Service) provides a highly scalable platform for running Docker containers."
+  },
+{
+    "ID": 166,
+    "Question": "Which AWS service is specifically designed for processing real-time streaming data at scale?",
+    "ReferenceImage": null,
+    "Options": ["Kinesis Data Streams", "SQS", "SNS", "Athena"],
+    "Answer": "Kinesis Data Streams",
+    "Explanation": "Amazon Kinesis Data Streams allows real-time data ingestion and processing for analytics, logging, or machine learning pipelines."
+  },
+  {
+    "ID": 167,
+    "Question": "Which strategy ensures the high availability of a relational database during disaster recovery in AWS?",
+    "ReferenceImage": null,
+    "Options": ["Multi-AZ Deployment", "Read Replicas", "On-demand Snapshots", "Data Pipeline"],
+    "Answer": "Multi-AZ Deployment",
+    "Explanation": "Multi-AZ Deployment provides automated failover to a standby replica in a different Availability Zone for disaster recovery."
+  },
+  {
+    "ID": 168,
+    "Question": "In AWS Step Functions, what is the purpose of a 'Catch' block in a workflow?",
+    "ReferenceImage": null,
+    "Options": [
+      "Handles errors in a state",
+      "Delays execution of states",
+      "Defines conditional branching",
+      "Increases state execution time"
+    ],
+    "Answer": "Handles errors in a state",
+    "Explanation": "A 'Catch' block in Step Functions enables error handling by defining recovery paths for failed states."
+  },
+  {
+    "ID": 169,
+    "Question": "What is the primary difference between Amazon EKS and Amazon ECS?",
+    "ReferenceImage": null,
+    "Options": [
+      "EKS is Kubernetes-based, while ECS is AWS proprietary.",
+      "ECS supports multi-region clusters; EKS does not.",
+      "EKS supports Fargate; ECS does not.",
+      "EKS is serverless; ECS is not."
+    ],
+    "Answer": "EKS is Kubernetes-based, while ECS is AWS proprietary.",
+    "Explanation": "Amazon EKS is a managed Kubernetes service, whereas ECS is AWS's proprietary container orchestration platform."
+  },
+  {
+    "ID": 170,
+    "Question": "Which AWS service allows you to build, train, and deploy machine learning models at scale?",
+    "ReferenceImage": null,
+    "Options": ["SageMaker", "Athena", "Glue", "EMR"],
+    "Answer": "SageMaker",
+    "Explanation": "Amazon SageMaker provides tools for building, training, and deploying machine learning models, including pre-built algorithms and Jupyter notebooks."
+  },
+{
+  "ID": 171,
+  "Scenario": "Your organization is running a critical database application on Amazon RDS with Multi-AZ deployment. During an infrastructure failure, the primary database instance in one Availability Zone becomes unavailable.",
+  "Question": "Which of the following best describes the failover process and its impact on application availability for a Multi-AZ RDS setup?",
+  "Options": [
+    "A. The primary instance automatically restarts in the same Availability Zone, and the DNS endpoint remains unchanged.",
+    "B. The standby instance in the secondary Availability Zone automatically takes over as the new primary, and the DNS endpoint is updated to point to the new instance.",
+    "C. The failover process requires manual intervention, and applications will experience prolonged downtime.",
+    "D. During failover, data replication is paused, leading to potential data loss until the original primary is restored."
+  ],
+  "Answer": "B. The standby instance in the secondary Availability Zone automatically takes over as the new primary, and the DNS endpoint is updated to point to the new instance.",
+  "Explanation": "In a Multi-AZ RDS setup, AWS automatically promotes the standby instance to the primary role during an infrastructure failure. The DNS endpoint for the database is updated to ensure minimal downtime. Option A is incorrect because the primary does not restart in the same AZ. Option C is incorrect because the failover process is automated and does not require manual intervention. Option D is incorrect because Multi-AZ deployments use synchronous replication to prevent data loss during failover."
+},
+{
+  "ID": 172,
+  "Scenario": "You are tasked with building a real-time data pipeline to process millions of log events per second and generate analytics in real-time. Your solution must ensure scalability, fault tolerance, and seamless integration with downstream analytics tools.",
+  "Question": "Which of the following AWS services and architecture would best meet the requirements for this real-time data pipeline?",
+  "Options": [
+    "A. Use Amazon Kinesis Data Streams for ingesting log events, Amazon Kinesis Data Analytics for real-time processing, and store the results in Amazon S3. Optionally, use AWS Lambda for custom event handling.",
+    "B. Use Amazon SQS for log ingestion, Amazon CloudWatch for real-time analytics, and send data directly to Amazon RDS for storage.",
+    "C. Use Amazon Kinesis Data Firehose to process log events in real time, Amazon Athena for querying, and enable shard auto-scaling for fault tolerance.",
+    "D. Use Amazon Redshift for real-time log ingestion and analytics, integrated with Amazon Kinesis Data Streams for scalability."
+  ],
+  "Answer": "A. Use Amazon Kinesis Data Streams for ingesting log events, Amazon Kinesis Data Analytics for real-time processing, and store the results in Amazon S3. Optionally, use AWS Lambda for custom event handling.",
+  "Explanation": "Option A is correct as it provides a complete, scalable, and fault-tolerant architecture. Kinesis Data Streams handles high-throughput ingestion, Kinesis Data Analytics performs real-time SQL-like analysis, and S3 provides durable storage. Lambda enables custom event processing if needed. \n\nOption B is incorrect because SQS is not designed for real-time ingestion at scale, and CloudWatch is used for monitoring, not analytics. \n\nOption C incorrectly claims that Kinesis Data Firehose can perform real-time analytics; it is primarily for delivery, not computation, and does not support shard auto-scaling. \n\nOption D is incorrect because Amazon Redshift is not designed for real-time log ingestion and relies on batch processes, making it unsuitable for low-latency analytics pipelines."
+}
+]

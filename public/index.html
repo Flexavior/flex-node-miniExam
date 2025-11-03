@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="client.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <div id="welcome-screen">
+            <h1>Welcome to the Flexavior miniExam App</h1>
+            <p>Select an exam to begin your assessment</p>
+            <div class="screen-tabs">
+                <button id="exams-tab" class="tab-button active">Available Exams</button>
+                <button id="results-tab" class="tab-button">View Results</button>
+            </div>
+            <div id="exam-selection" class="exam-grid">
+                <!-- Exam cards will be populated here -->
+            </div>
+            <div id="results-viewer" class="results-viewer" style="display: none;">
+                <div id="results-list">
+                    <!-- Results will be loaded here -->
+                </div>
+            </div>
+        </div>
+
+        <div id="setup-screen" style="display: none;">
+            <h2 id="selected-exam-title">Selected Exam</h2>
+            <form id="start-form">
+                <div class="form-group">
+                    <label for="name">Enter your name:</label>
+                    <input type="text" id="name" required placeholder="Your full name">
+                </div>
+                <div class="form-group">
+                    <label for="package">Select the package size:</label>
+                    <select id="package" required>
+                        <option value="small">Small (10 questions)</option>
+                        <option value="mid">Mid (25 questions)</option>
+                        <option value="large">Large (50 questions)</option>
+                    </select>
+                </div>
+                <div class="form-actions">
+                    <button type="button" id="back-button" class="secondary-btn">Back</button>
+                    <button type="submit" class="primary-btn">Start Exam</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="exam-container" style="display: none;">
+            <div id="exam-header">
+                <div id="exam-info">
+                    <div id="exam-id-display">Exam ID: Loading...</div>
+                    <div id="progress">Question <span id="current-q">1</span> of <span id="total-q">10</span></div>
+                </div>
+                <div id="timer">Time: <span id="time-remaining">00:00</span></div>
+            </div>
+            <div id="question-container">
+                <!-- Question content will be loaded here -->
+            </div>
+            <div id="navigation">
+                <button id="prev-button" style="display: none;">Previous</button>
+                <button id="next-button">Next</button>
+                <button id="submit-button" style="display: none;">Submit Exam</button>
+            </div>
+        </div>
+
+        <div id="result-container" style="display: none;">
+            <!-- Results will be displayed here -->
+        </div>
+    </div>
+</body>
+</html>

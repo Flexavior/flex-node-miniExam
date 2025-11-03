@@ -1,0 +1,420 @@
+[
+  {
+    "ID": 1,
+    "Question": "The average of 20 integers is zero. Of them, at the most, how many can be greater than zero?",
+    "ReferenceImage": null,
+    "Options": [0, 1, 2, 10, 19],
+    "Answer": 19,
+    "Explanation": "It is quite possible that 19 of these numbers may be positive and if their sum is X then the 20th number is (-X) making the average 0."
+  },
+  {
+    "ID": 2,
+    "Question": "Which figure represents how the given pattern (x) would appear if the sheet were folded at the dotted line?",
+    "ReferenceImage": "./images/ID2referenceimage1.jpeg",
+    "Options": ["ID2img1", "ID2img2", "ID2img3", "ID2img4"],
+    "Answer": "ID2img4",
+    "Explanation": null
+  },
+  {
+    "ID": 3,
+    "Question": "Ten is to Decimal as:",
+    "ReferenceImage": null,
+    "Options": ["Seven is to Septet", "Four is to Quartet", "Two is to Binary", "Five is to Quince", "Many is to Infinity"],
+    "Answer": "Two is to Binary",
+    "Explanation": null
+  },
+  {
+    "ID": 4,
+    "Question": "Which word below is a synonym for august?",
+    "ReferenceImage": null,
+    "Options": ["Distinguished", "Common", "Petty", "Amorous", "Morose"],
+    "Answer": "Distinguished",
+    "Explanation": null
+  },
+  {
+    "ID": 5,
+    "Question": "Fill in the blank with the missing letter in the series below.\nCMM, EOO, GQQ, _____, KUU",
+    "ReferenceImage": null,
+    "Options": ["GRR", "GSS", "ISS", "ITT", "HSS"],
+    "Answer": "ISS",
+    "Explanation": "The first letters are in alphabetical order with a letter skipped in between each segment: C, E, G, I, K. The second and third letters are repeated; they are also in order with a skipped letter: M, O, Q, S, U."
+  },
+  {
+    "ID": 6,
+    "Question": "All the tulips in Zoe's garden are white.\nAll the pansies in Zoe's garden are yellow.\nAll the flowers in Zoe's garden are either white or yellow.\nIf the first two statements are true, the third statement is:",
+    "ReferenceImage": null,
+    "Options": ["True", "False", "Uncertain"],
+    "Answer": "Uncertain",
+    "Explanation": "The first two statements give information about Zoe's tulips and pansies. Information about any other kinds of flowers cannot be determined."
+  },
+  {
+    "ID": 7,
+    "Question": "Which figure represents how the given pattern (x) would appear if the sheet were folded at the dotted line?",
+    "ReferenceImage": "./images/ID7referenceimage1.jpeg",
+    "Options": [1, 2, 3, 4],
+    "Answer": 1,
+    "Explanation": null
+  },
+  {
+    "ID": 8,
+    "Question": "Which picture cube does the given shape make?",
+    "ReferenceImage": "./images/ID8referenceimage1.jpeg",
+    "Options": ["A", "B", "C", "D"],
+    "Answer": "B",
+    "Explanation": null
+  },
+  {
+    "ID": 9,
+    "Question": "The present ages of three persons are in proportions 4 : 7 : 9. Eight years ago, the sum of their ages was 56. Find their present ages (in years).",
+    "ReferenceImage": null,
+    "Options": ["6,13,7", "8,14,18", "16,28,36", "18,30,32", "21,33,41"],
+    "Answer": "16,28,36",
+    "Explanation": null
+  },
+  {
+    "ID": 10,
+    "Question": "Find the statement that must be true according to the given information.\nOn weekends, Mr. Sanchez spends many hours working in his vegetable and flower gardens. Mrs. Sanchez spends her free time reading and listening to classical music. Both Mr. Sanchez and Mrs. Sanchez like to cook.",
+    "ReferenceImage": null,
+    "Options": ["Mr. Sanchez enjoys planting and growing vegetables.", "Mr. Sanchez does not like classical music.", "Mrs. Sanchez cooks the vegetables that Mr. Sanchez grows.", "Mrs. Sanchez enjoys reading nineteenth century novels.", "Mr. and Mrs. Sanchez have nothing in common."],
+    "Answer": "Mr. Sanchez enjoys planting and growing vegetables.",
+    "Explanation": "Because Mr. Sanchez spends many hours during the weekend working in his vegetable garden, it is reasonable to suggest that he enjoys this work. There is no information to suggest that he does not like classical music (choice 2). Although Mrs. Sanchez likes to cook, there is nothing that indicates she cooks vegetables (choice 3). Mrs. Sanchez likes to read, but there is no information regarding the types of books she reads (choice 4). Because they choose to do separate activities on the weekends does not necessarily mean they don't have other things in common (choice 5)."
+  },
+  {
+    "ID": 11,
+    "Question": "Find the missing letter in the image below.",
+    "ReferenceImage": "./images/ID11referenceimage1.jpeg",
+    "Options": ["A", "C", "D", "L", "O"],
+    "Answer": "O",
+    "Explanation": "In each group of 3 boxes, the numerical value in the lower box equals the average of the numerical values of the letters in the top 2 boxes."
+  },
+  {
+    "ID": 12,
+    "Question": "In a mixture 60 litres, the ratio of milk and water 2 : 1. If this ratio is to be 1 : 2, then the quantity of water to be further added is:",
+    "ReferenceImage": null,
+    "Options": ["20 litres", "25 litres", "30 litres", "40 litres", "60 litres"],
+    "Answer": "60 litres",
+    "Explanation": "40/(20+x) = 1/2"
+  },
+  {
+    "ID": 13,
+    "Question": "Find the missing number.",
+    "ReferenceImage": "./images/ID13referenceimage1.jpeg",
+    "Options": [0, 1, 2, 5, 7],
+    "Answer": 2,
+    "Explanation": "In each slice of the circle, the difference between the outer and middle numbers is written in the inner segment of the opposite slice."
+  },
+  {
+    "ID": 14,
+    "Question": "Two trains of equal length are running on parallel lines in the same direction at 46 km/hr and 36 km/hr. The faster train passes the slower train in 36 seconds. The length of each train is:",
+    "ReferenceImage": null,
+    "Options": ["50m", "72m", "80m", "82m", "90m"],
+    "Answer": "50m",
+    "Explanation": "length of each train is 50m. Distance = Relative speed * Time. Distance = 25/9 mps × 36 s=100 m (Difference 10 km per hour convert to meter per seconds)"
+  },
+  {
+    "ID": 15,
+    "Question": "What portion of an hour is a second?",
+    "ReferenceImage": null,
+    "Options": [0.01667, 0.02567, 0.00056, 0.00027, 0.000126],
+    "Answer": 0.00027,
+    "Explanation": "1s/3600s= 0.0002778"
+  },
+  {
+    "ID": 16,
+    "Question": "A hall is 15 m long and 12 m broad. If the sum of the areas of the floor and the ceiling is equal to the sum of the areas of four walls, the volume of the hall is:",
+    "ReferenceImage": null,
+    "Options": [720, 900, 1200, 1600, 1800],
+    "Answer": 900,
+    "Explanation": "2(15 + 12) x h = 2(15 x 12). h = 180 / 27 = 20 / 3. Volume = 15 x 12 x (20 / 3) = 1200m3"
+  },
+  {
+    "ID": 17,
+    "Question": "The product of two numbers is 120 and the sum of their squares is 289. The sum of the numbers is:",
+    "ReferenceImage": null,
+    "Options": [20, 23, 33, 34, 67],
+    "Answer": null,
+    "Explanation": null
+  },
+  {
+    "ID": 18,
+    "Question": "What is the mirror image of the sequence \"AB12C\"?",
+    "ReferenceImage": null,
+    "Options": ["C21ƂA", "C21BA", "C21AB", "CBA12"],
+    "Answer": "C21ƂA",
+    "Explanation": "In a mirror, 'A,' '1,' '2,' and 'C' remain unchanged, while 'B' appears as 'Ƃ.'"
+  },
+  {
+    "ID": 19,
+    "Question": "Sarah is currently 30 years old, and she is five times older than her sister. How old will Sarah be when she is three times her sister's age?",
+    "ReferenceImage": null,
+    "Options": ["35 years", "36 years", "40 years", "45 years"],
+    "Answer": "36 years",
+    "Explanation": "Sarah's sister's age = 30/5 = 6. Let the number of years needed be 𝑦. At that time, Sarah's age will be 30+y, and her sister's age will be 6+y. 30+y = 3×(6+y). Solving gives y = 6. Sarah's age: 30+6 = 36."
+  },
+  {
+    "ID": 20,
+    "Question": "Choose the correct mirror image for \"XYZ45\".",
+    "ReferenceImage": null,
+    "Options": ["54ZYX", "S4ƸY", "54YXZ", "54XƸY"],
+    "Answer": "54ZYX",
+    "Explanation": "In the mirror, the letters appear in reverse order, with '4' and '5' remaining the same."
+  },
+  {
+    "ID": 21,
+    "Question": "Alex has 25 cents, Ben has 15 cents, and Charlie has 30 cents. If Ben gives his 15 cents to Alex, will Alex then have more money than Charlie?",
+    "ReferenceImage": null,
+    "Options": [true, false],
+    "Answer": true,
+    "Explanation": "If Ben gives his 15 cents to Alex: Alex will then have 25+15=40 cents. Charlie has 30 cents. Comparison: 40 cents (Alex) is more than 30 cents (Charlie)."
+  },
+  {
+    "ID": 22,
+    "Question": "A restaurant reduces the price of a meal by 25%. What percentage must the discounted price be increased to return to the original price?",
+    "ReferenceImage": null,
+    "Options": ["20%", "25%", "33.33%", "50%"],
+    "Answer": "33.33%",
+    "Explanation": "Increase= P−0.75P/0.75P×100 = 0.25P/0.75P×100 = 33.33%"
+  },
+  {
+    "ID": 23,
+    "Question": "What is the mirror image of 'M3D6P'?",
+    "ReferenceImage": null,
+    "Options": ["P9Ɛ3M", "P6D3M", "ƿ9Ɛ3W", "P6Ɔ3W"],
+    "Answer": "P6D3M",
+    "Explanation": "'M' becomes 'M', '3' remains '3,' 'D' remains 'D,' '6' remains '6,' and 'P' appears as 'P' in a mirror."
+  },
+  {
+    "ID": 24,
+    "Question": "10 printers print 10 pages in 10 minutes. How long would it take for 100 printers to print 100 pages?",
+    "ReferenceImage": null,
+    "Options": ["1 minute", "10 minutes", "5 minutes", "100 minutes"],
+    "Answer": "10 minutes",
+    "Explanation": "If 10 printers print 10 pages in 10 minutes, each printer prints 1 page in 10 minutes. With 100 printers, they can collectively print 100 pages in the same 10 minutes."
+  },
+  {
+    "ID": 25,
+    "Question": "Identify the mirror image of 'QR78E'.",
+    "ReferenceImage": null,
+    "Options": ["Q7Ɛ8R", "E87PQ", "q8Ɛ7r", "Q7R8Ɛ"],
+    "Answer": "E87PQ",
+    "Explanation": "'E' stays 'E,' '7' and '8' remain the same, 'R' becomes 'R,' and 'Q' remains 'Q.'"
+  },
+  {
+    "ID": 26,
+    "Question": "You need to get 15 pieces of string by cutting a single long piece of string. How many cuts do you need to make?",
+    "ReferenceImage": null,
+    "Options": [13, 14, 15, 16],
+    "Answer": 14,
+    "Explanation": "Each cut increases the number of pieces by 1. To get 15 pieces, you would need 14 cuts."
+  },
+  {
+    "ID": 27,
+    "Question": "What is the mirror image of 'D9X8W'?",
+    "ReferenceImage": null,
+    "Options": ["W8X9D", "W6X9D", "M9X8Ɖ", "W8Ǝ9D"],
+    "Answer": "W8X9D",
+    "Explanation": "Each character is reversed in order; 'D' stays 'D,' '9' stays '9,' 'X' remains 'X,' '8' remains '8,' and 'W' stays 'W.'"
+  },
+  {
+    "ID": 28,
+    "Question": "There were 3 onions and 4 apples on the table. The boy took one onion. How many fruits are left on the table?",
+    "ReferenceImage": null,
+    "Options": [4, 5, 0, 2],
+    "Answer": 4,
+    "Explanation": "We are talking about fruits only."
+  },
+  {
+    "ID": 29,
+    "Question": "Identify the mirror image of 'F3G2H'.",
+    "ReferenceImage": null,
+    "Options": ["H2G3F", "H2C3F", "ƚ3ƃ2H", "H2ƃ3F"],
+    "Answer": "H2G3F",
+    "Explanation": "Each character is reversed in order; 'H', '2' and '3' remain the same, while 'F' stays 'F.'"
+  },
+  {
+    "ID": 30,
+    "Question": "What is the mirror image of 'K4Z1C'?",
+    "ReferenceImage": null,
+    "Options": ["Ɔ1Z4K", "C14ZK", "C1Ƶ4K", "Ɔ1Z4P"],
+    "Answer": "Ɔ1Z4K",
+    "Explanation": "'K' remains 'K,' '4' remains '4,' 'Z' stays 'Z,' '1' remains '1,' and 'C' becomes 'Ɔ.'"
+  },
+  {
+    "ID": 31,
+    "Question": "Find the mirror image of 'W8R5E'.",
+    "ReferenceImage": null,
+    "Options": ["E5R8W", "E5Ɽ8W", "Ǝ5Ƨ8M", "Ɛ5R8W"],
+    "Answer": "E5Ɽ8W",
+    "Explanation": "'W' stays 'W' '8' stays '8,' 'R' becomes 'R', '5' remains '5', and 'E' stays 'E.'"
+  },
+  {
+    "ID": 32,
+    "Question": "If you rotate a cube with a red face on top, where will the red face be after a 180-degree turn?",
+    "ReferenceImage": null,
+    "Options": ["Top", "Right Side", "Left Side", "Bottom"],
+    "Answer": "Bottom",
+    "Explanation": "A 180-degree turn flips it upside down."
+  },
+  {
+    "ID": 33,
+    "Question": "A man walks 3 km south, 3 km east, and 3 km north. Where is he?",
+    "ReferenceImage": null,
+    "Options": ["2km northwest of the start", "3km east of the start", "2km east of the start", "3km north of the start"],
+    "Answer": "3km east of the start",
+    "Explanation": "He returns north but has a net eastward distance."
+  },
+  {
+    "ID": 34,
+    "Question": "In the code, CAT is written as XZG. How is DOG written?",
+    "ReferenceImage": null,
+    "Options": ["XYZ", "XWY", "WLT", "None of the above"],
+    "Answer": "WLT",
+    "Explanation": "Each letter moves backward in the alphabet."
+  },
+  {
+    "ID": 35,
+    "Question": "Identify the next number: 101, 104, 109, 116, __?",
+    "ReferenceImage": null,
+    "Options": [100, 130, 120, 125],
+    "Answer": 125,
+    "Explanation": "Each term increases by consecutive odd numbers (3, 5, 7, 9)."
+  },
+  {
+    "ID": 36,
+    "Question": "8 candles were burning. 3 of them were extinguished. How many candles are left?",
+    "ReferenceImage": null,
+    "Options": [5, 8, 3, 0],
+    "Answer": 8,
+    "Explanation": "The candles were extinguished not destroyed and therefore 8 of them are still there."
+  },
+  {
+    "ID": 37,
+    "Question": "10 parrots were sitting on the branch of a tree. A man shot one. How many parrots are left sitting on the branch of the tree?",
+    "ReferenceImage": null,
+    "Options": [0, 9, 1, 8],
+    "Answer": 0,
+    "Explanation": "The answer is 0 because the shot would cause all the parrots to fly away, leaving none on the branch."
+  },
+  {
+    "ID": 38,
+    "Question": "How many corners will the circle have if it is cut in half?",
+    "ReferenceImage": null,
+    "Options": [0, 1, "Infinite", "None of the above"],
+    "Answer": 0,
+    "Explanation": "Circle doesn't have corners."
+  },
+  {
+    "ID": 39,
+    "Question": "EMBEZZLE",
+    "ReferenceImage": null,
+    "Options": ["Misappropriate", "Balance", "Remunerate", "Clear"],
+    "Answer": "Misappropriate",
+    "Explanation": "Synonym"
+  },
+  {
+    "ID": 40,
+    "Question": "You are trying to fill a tank, but there's a leak at the bottom. The first hose can fill the tank in 4 minutes, and the second hose in 3 minutes. The leak can drain the entire tank in 12 minutes. If both hoses are turned on with the leak open, how long will it take to fill the tank?",
+    "ReferenceImage": null,
+    "Options": ["2 minutes", "3 minutes", "4 minutes", "5 minutes"],
+    "Answer": "2 minutes",
+    "Explanation": "The rate of time taken by the hoses are 1/4 and 1/3 per minute respectively. The leak takes 1/12/minute to drain. Combined Rate: 1/3+1/4-1/12=1/2; 2 minutes to fill the tank."
+  },
+  {
+    "ID": 41,
+    "Question": "Which is the odd one out?",
+    "ReferenceImage": null,
+    "Options": ["Clavichord", "Harpsichord", "Clarion", "Accordion"],
+    "Answer": "Clarion",
+    "Explanation": "It's a high-pitched trumpet."
+  },
+  {
+    "ID": 42,
+    "Question": "What does the word FACADE mean?",
+    "ReferenceImage": null,
+    "Options": ["Pretense", "Authenticity", "Genuinely", "Veracity"],
+    "Answer": "Pretense",
+    "Explanation": "Facade means an outward appearance maintained to conceal a less pleasant reality."
+  },
+  {
+    "ID": 43,
+    "Question": "What do you call a group of peacocks?",
+    "ReferenceImage": null,
+    "Options": ["Bevy", "Ostentation", "Lepe", "Richesse"],
+    "Answer": "Ostentation",
+    "Explanation": "An ostentation is the term used for a group of peacocks."
+  },
+  {
+    "ID": 44,
+    "Question": "56, ?, 332, 664",
+    "ReferenceImage": null,
+    "Options": ["221", "112", "22", "None of the above"],
+    "Answer": "112",
+    "Explanation": "It is double the number before."
+  },
+  {
+    "ID": 45,
+    "Question": "92, ?, 3312, 19872",
+    "ReferenceImage": null,
+    "Options": ["500", "452", "552", "422"],
+    "Answer": "552",
+    "Explanation": "It's multiples of 6."
+  },
+  {
+    "ID": 46,
+    "Question": "56, 71, 86, ?, 116",
+    "ReferenceImage": null,
+    "Options": ["100", "101", "50", "122"],
+    "Answer": "101",
+    "Explanation": "Addition of 15."
+  },
+  {
+    "ID": 47,
+    "Question": "A thermometer is to temperature as a barometer is to:",
+    "ReferenceImage": null,
+    "Options": ["pressure", "humidity", "rainfall", "altitude"],
+    "Answer": "pressure",
+    "Explanation": "A barometer is used to measure atmospheric pressure."
+  },
+  {
+    "ID": 48,
+    "Question": "The rudder is to steering as the anchor is to:",
+    "ReferenceImage": null,
+    "Options": ["diving", "stability", "towing", "buoyancy"],
+    "Answer": "stability",
+    "Explanation": "An anchor helps stabilize the ship in a fixed position."
+  },
+  {
+    "ID": 49,
+    "Question": "The clock is to time as the scale is to:",
+    "ReferenceImage": null,
+    "Options": ["weight", "size", "area", "volume"],
+    "Answer": "weight",
+    "Explanation": "A scale is used to measure weight."
+  },
+  {
+    "ID": 50,
+    "Question": "Sort the given figures into three distinct groups, using each figure in only one group.",
+    "ReferenceImage": null,
+    "Options": [
+      "1,5,7 ; 2,4,6 ; 3,9,8",
+      "1,5,7 ; 2,4,8 ; 3,6,9",
+      "1,4,7 ; 2,5,8 ; 3,6,9",
+      "1,7,9 ; 3,5,8 ; 2,4,6"
+    ],
+    "Answer": "1,5,7; 2,4,8; 3,6,9",
+    "Explanation": "1, 5, and 7 each contain two identical elements, with one positioned inside the other. 2, 4, and 8 consist of one element placed within a different element. 3, 6, and 9 feature two identical elements, one within the other, with the space between them shaded."
+  },
+  {
+    "ID": 66,
+    "Question": "Group the given figures into three classes using each figure only once.",
+    "ReferenceImage": "./images/ID66referenceimage1.jpeg",
+    "Options": [
+      "1,2,3 ; 4,5,8 ; 6,7,9",
+      "1,5,6 ; 2,3,4 ; 7,8,9",
+      "1,3,5 ; 2,4,8 ; 6,7,9",
+      "1,4,7 ; 2,5,8 ; 3,6,9"
+    ],
+    "Answer": "1,5,6; 2,3,4; 7,8,9",
+    "Explanation": "1, 5, and 6 each have two identical elements, with one positioned inside the other. 2, 3, and 4 feature straight lines that divide the figure into two halves. 7, 8, and 9 contain one element placed within a different element."
+  }
+]
